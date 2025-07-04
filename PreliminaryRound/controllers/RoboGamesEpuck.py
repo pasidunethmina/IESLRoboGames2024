@@ -90,8 +90,8 @@ def go_straight() :
         forward()
         color = detect_color(camera)
         control_leds(color, led1, led2)
-        print(list_ps[3].getValue())
-        if list_ps[3].getValue() > 116 :
+        print(list_ps[5].getValue())
+        if list_ps[5].getValue() > 116 :
             brake()
             break
 
@@ -114,7 +114,74 @@ def align() :
             brake()
             break
 
- 
+    
+def red_yellow():
+    left_turn()
+    go_straight()
+    left_turn()
+    go_straight()
+    right_turn() 
+    go_straight()
+    right_turn()
+    go_straight()
+    left_turn()
+    go_straight()
+    left_turn()
+    go_straight() 
+    right_turn()
+    go_straight()
+    left_turn()
+    go_straight()
+    left_turn()
+    go_straight()
+    right_turn()
+    go_straight()
+    
+    
+def yellow_pink():
+    right_turn()
+    right_turn()
+    go_straight()
+    left_turn()
+    go_straight()
+    right_turn()
+    go_straight()
+    right_turn()
+    go_straight()
+    left_turn()
+    go_straight()
+    right_turn()
+    go_straight()
+    right_turn()
+    go_straight()
+    left_turn()
+    go_straight()
+    left_turn()
+    go_straight()
+    right_turn()
+    go_straight()
+    right_turn()
+    go_straight()
+     
+def pink_brown():
+    """
+    need some additional controlers
+    """
+    
+def brown_green():
+    right_turn()
+    right_turn()
+    go_straight()
+    right_turn()
+    go_straight()
+    left_turn()
+    go_straight()
+    left_turn()
+    go_straight()    
+    left_turn()
+    go_straight()    
+    # controler need
+    
 
 
 # def run_robot(robot):
@@ -126,7 +193,6 @@ left_motor.setVelocity(0.0)
 
 right_motor.setPosition(float('inf'))
 right_motor.setVelocity(0.0)
-
 
 # Speeds
 wheel_speed = 2.0  # m/s
@@ -147,34 +213,33 @@ led2 = robot.getDevice('led2')
 
 
 
-# while robot.step(TIMESTEP) != -1:
-    # left_speed = MAX_SPEED
-    # right_speed = MAX_SPEED
+            
 
-    # for ps in list_ps:
-        # if ps.getValue() < 40:
-            # left_speed = -MAX_SPEED
                 
-
+# move_to_next_cell()
 # while robot.step(TIME_STEP) != -1:
     # brake()
-    # print(list_ps[1].getValue(),list_ps[2].getValue())
+    # print(list_ps[0].getValue(),list_ps[5].getValue())
        
 
 #move_to_next_cell()
-# go_straight()
-# red_yellow()
-# yellow_pink()
+go_straight()
+red_yellow()
+yellow_pink()
 
-# align()
-move_to_next_cell()
-left_turn()
-move_to_next_cell()
-move_to_next_cell()
-left_turn()
-move_to_next_cell()
-right_turn()
-move_to_next_cell()
+
+# move_to_next_cell()
+# left_turn()
+# move_to_next_cell()
+# move_to_next_cell()
+# left_turn()
+# move_to_next_cell()
+# right_turn()
+# move_to_next_cell()
+
+
+
+
 # color = detect_color(camera)
 # control_leds(color, led1, led2)
 
