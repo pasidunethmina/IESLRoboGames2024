@@ -57,8 +57,6 @@ def right_turn() :
     right_motor.setVelocity(0)
 
 # Stop the robot
-
-    
     
 def left_turn() :
     left_motor.setVelocity(-1)
