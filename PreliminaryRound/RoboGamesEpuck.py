@@ -43,7 +43,6 @@ def control_leds(color, led1, led2):
         led1.set(0)
         led2.set(0)
         
-# Perform a 90-degree turn
 
 # Run for the calculated turn time
 def right_turn() :
