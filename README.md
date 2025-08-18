@@ -20,7 +20,7 @@ This repository contains the source code, world files, and controller scripts de
 
 ---
 
-## First Runners up at IESLRoboGames 2024
+## First Runners up at IESLRoboGames 2024 🏆
 
 ---
 
