@@ -20,10 +20,23 @@ This repository contains the source code, world files, and controller scripts de
 
 ---
 
-## First Runners up at IESLRoboGames 2024
+## First Runner-up – IESL RoboGames 2024 🏆
 
 ---
 
 ![Alt text](assets/robogames_runners_up.jpg)
 
-[![Watch the demo](assets/demo-thumbnail.png)](assets/IESLRoboGames_team_RoboCrew.mp4)
+
+
+
+---
+
+
+
+
+
+## 🎥 A video demonstration of our work
+
+---
+
+[![Watch the demo](assets/kobuki.jpg)](assets/IESLRoboGames_team_RoboCrew.mp4)
