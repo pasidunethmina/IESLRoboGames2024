@@ -28,7 +28,7 @@ This repository contains the source code, world files, and controller scripts de
 
 ---
 
-## A video of our work 🤖
+## 🎥 A video demonstration of our work
 
 ---
 
