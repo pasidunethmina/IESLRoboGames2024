@@ -26,17 +26,10 @@ This repository contains the source code, world files, and controller scripts de
 
 ![Alt text](assets/robogames_runners_up.jpg)
 
-
-
-
 ---
-
-
-
-
 
 ## 🎥 A video demonstration of our work
 
 ---
 
-[![Watch the demo](assets/kobuki.jpg)](assets/IESLRoboGames_team_RoboCrew.mp4)
+[![Watch the demo](assets/kobuki.png)](assets/IESLRoboGames_team_RoboCrew.mp4)
