@@ -25,3 +25,5 @@ This repository contains the source code, world files, and controller scripts de
 ---
 
 ![Alt text](assets/robogames_runners_up.jpg)
+
+![Alt text](assets/IESLRoboGames_team_RoboCrew.mp4)
