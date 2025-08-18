@@ -18,4 +18,4 @@ This repository contains the source code, world files, and controller scripts de
 
  - Sensor integration: Xbox 360 Kinect Sensor (Camera & Depth Sensor)
 
-![Alt text](assets/robogames_runners_up.png)
+![Alt text](assets/robogames_runners_up.jpg)
