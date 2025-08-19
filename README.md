@@ -9,10 +9,10 @@ This repository contains the source code, world files, and controller scripts de
 
 ### Project Features
 
-### Preliminary Round
+#### Preliminary Round
  - Webots world customized for RoboGames challenges
 
-### Final Round
+#### Final Round
  - Python controllers implementing logic for:
    - Obstacle avoidance
    - Color detection (using simulated camera/sensor)
